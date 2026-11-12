@@ -11,6 +11,5 @@ class DatabaseConnection:
       print("Username:",self.username)
       print("Password: [hidden]")
 
-
   db = DatabaseConnection(5432, "localhost", "admin", "demo")
   db.show_connection()
