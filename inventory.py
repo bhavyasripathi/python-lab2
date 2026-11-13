@@ -12,3 +12,5 @@ for sku, item in inventory.items():
         item["price"] = item["price"] * 0.85
     print(sku, item["name"], item["price"])
 
+if item["stock_count"] == 0:
+   item["restock_urgent"] = True
